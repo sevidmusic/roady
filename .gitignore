@@ -9,4 +9,4 @@ vendor/
 vimfilelist
 composer.lock
 rig
-
+rig.php
