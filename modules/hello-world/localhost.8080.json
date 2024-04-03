@@ -1,2 +1,16 @@
-
+[
+    {
+        "module-name": "hello-world",
+        "responds-to": [
+            "homepage"
+        ],
+        "named-positions": [
+            {
+                "position-name": "roady-ui-main-content",
+                "position": 0
+            }
+        ],
+        "relative-path": "output\/hello-world.html"
+    }
+]
 
