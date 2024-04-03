@@ -1,0 +1,14 @@
+
+.roady-ui-pre-header {
+    border-radius: 0.5rem;
+}
+
+.roady-ui-main-content {
+
+    img,
+    picture {
+        border-radius: 0.5rem;
+    }
+
+}
+

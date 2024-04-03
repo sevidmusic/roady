@@ -1,0 +1,70 @@
+
+.circles{
+    height: 87%;
+    width: 87%;
+}
+
+.circles li:nth-child(1){
+    height: 80px;
+    width: 80px;
+}
+
+.circles li:nth-child(2){
+    height: 20px;
+    width: 20px;
+}
+
+.circles li:nth-child(3){
+    height: 20px;
+    width: 20px;
+}
+
+.circles li:nth-child(4){
+    height: 60px;
+    width: 60px;
+}
+
+.circles li:nth-child(5){
+    height: 20px;
+    width: 20px;
+}
+
+.circles li:nth-child(6){
+    height: 110px;
+    width: 110px;
+}
+
+.circles li:nth-child(7){
+    height: 150px;
+    width: 150px;
+}
+
+.circles li:nth-child(8){
+    height: 25px;
+    width: 25px;
+}
+
+.circles li:nth-child(9){
+    height: 15px;
+    width: 15px;
+}
+
+.circles li:nth-child(10){
+    height: 150px;
+    width: 150px;
+}
+
+.circles li{
+    animation: animate 37s linear infinite;
+    img, picture { max-width: 100%; height: auto; }
+}
+
+@media only screen and (max-width: 1425px) {
+
+    .roady-ui-pre-header {
+        max-height: 10svh;
+        scroll-snap-type: both mandatory;
+    }
+
+}
+

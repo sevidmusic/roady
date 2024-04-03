@@ -1,0 +1,50 @@
+/**
+* This css reset file is based on recommendations made by Kevin Powell
+* on his youtube channel:
+*
+* @see https://www.youtube.com/@KevinPowell
+*
+* Specifically in the following videos:
+*
+* - Under the radar CSS features for your CSS reset -
+* @see https://www.youtube.com/watch?v=cCAtD_BAHNw
+*
+*/
+
+html {
+    hanging-punctuation: first last;
+}
+
+p {
+    /** Prevent orphan words at end of paragraphs */
+    text-wrap: pretty;
+    /** Max width based on character length, adjust as needed */
+    max-width: 70ch;
+}
+
+/**
+ * `img` reset recommended by Kevin Powell
+ *
+ * A better image reset for your CSS
+ * @see https://www.youtube.com/watch?v=345V2MU3E_w
+ */
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target){
+        /** Enable smoot scrolling for targeted elements */
+        scroll-behavior: smooth;
+        /** Add a bit of space above taegetd element on scroll */
+        scroll-padding-top: 3rem;
+    }
+
+}

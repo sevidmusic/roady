@@ -1,0 +1,122 @@
+
+body {
+    padding: 1vw;
+    margin: 0 27vw;
+}
+.roady-ui-content-wrapper,
+.roady-ui-pre-header {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.roady-ui-pre-header {
+    overflow: auto;
+    position: sticky;
+    top: 1.7svh;
+    z-index: 5000;
+    menu {
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    li {
+        padding: 1rem;
+    }
+}
+
+.roady-ui-main-content {
+    img,
+    picture {
+        margin: 2rem 0;
+    }
+}
+
+.roady-ui-content-wrapper {
+    padding: 3.5rem;
+    margin: 2.7rem 0;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    z-index: -2000;
+    left: 0;
+}
+
+.circles li {
+    bottom: -150px;
+    display: block;
+    list-style: none;
+    opacity: 0;
+    padding: 1.7rem;
+    position: absolute;
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+}
+
+.circles li:nth-child(2){
+    left: 10%;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+}
+
+.roady-ui-pre-header,
+.roady-ui-main-content {
+    opacity: 87%;
+}
+
+@media only screen and (max-width: 744px) {
+
+    .roady-ui-pre-header {
+        menu {
+            display: grid;
+            grid-auto-flow: row;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 140ch) {
+    body {
+        margin: 0 17vw;
+    }
+}
+
+
+@media only screen and (max-width: 100ch) {
+    body {
+        margin: 0 7vw;
+    }
+}

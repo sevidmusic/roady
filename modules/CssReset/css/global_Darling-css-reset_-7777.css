@@ -1,0 +1,6 @@
+
+/** Remove list styles for menu elements */
+menu {
+  list-style: none;
+}
+

@@ -1,0 +1,72 @@
+html {
+    color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color-loud: red;
+        --primary-color-normal: white;
+        --primary-color-quiet: gray;
+    }
+
+    h1, h2, h3, h4 {
+        text-shadow: -6px -6px #161518,
+                     -5px -5px #161518,
+                     -4px -4px #161518,
+                     -3px -3px #161518,
+                     -2px -2px #161518,
+                     -1px -1px #161518,
+                     1px 1px #161518,
+                     2px 2px #161518,
+                     3px 3px #161518,
+                     4px 4px;
+    }
+
+    .roady-ui-pre-header {
+        background: #161518;
+    }
+
+    .roady-ui-content-wrapper {
+        background: #161518;
+    }
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-color-loud: blue;
+        --primary-color-normal: black;
+        --primary-color-quiet: gray;
+    }
+
+    h1, h2, h3, h4 {
+        text-shadow: -6px -6px #ffffff,
+                     -5px -5px #ffffff,
+                     -4px -4px #ffffff,
+                     -3px -3px #ffffff,
+                     -2px -2px #ffffff,
+                     -1px -1px #ffffff,
+                     1px 1px #ffffff,
+                     2px 2px #ffffff,
+                     3px 3px #ffffff,
+                     4px 4px;
+    }
+
+    .roady-ui-pre-header {
+        background: #ffffff;
+    }
+}
+
+.circles li{
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+a {
+    color: #0892d0;
+}
+
+a:hover {
+    text-decoration-color: var(--primary-color-loud, orange);
+}
+

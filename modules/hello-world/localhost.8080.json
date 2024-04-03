@@ -6,14 +6,11 @@
         ],
         "named-positions": [
             {
-                "position-name": "roady-ui-header",
-                "position": -10.0122389
-            },
-            {
                 "position-name": "roady-ui-main-content",
-                "position": -3491.0
+                "position": 0
             }
         ],
-        "relative-path": "output\/hello-world.php"
+        "relative-path": "output\/hello-world.html"
     }
 ]
+

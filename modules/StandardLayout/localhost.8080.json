@@ -1,0 +1,15 @@
+[
+    {
+        "module-name": "StandardLayout",
+        "responds-to": [
+            "global"
+        ],
+        "named-positions": [
+            {
+                "position-name": "roady-ui-footer",
+                "position": 99999
+            }
+        ],
+        "relative-path": "output\/background-animation.html"
+    }
+]

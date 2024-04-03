@@ -1,0 +1,77 @@
+
+@keyframes animate {
+
+    0%{
+        background: gray;
+        border: 0rem groove gray;
+        transform: translateY(0) rotate(0deg);
+    }
+
+    12%{
+        opacity: 0.5;
+    }
+
+    50%{
+        border-radius: 50%;
+        border: 5rem groove black;
+        opacity: 0.000017;
+        transform: translateY(-1000px) rotate(720deg);
+    }
+
+    100%{
+        background: black;
+        border-radius: 100%;
+        border: none;
+        font-size: 0;
+        margin: 0;
+        opacity: 0;
+        padding: 0;
+    }
+
+}
+
+.circles li:nth-child(10){
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+.circles li:nth-child(9){
+    animation-delay: 2s;
+    animation-duration: 28s;
+}
+
+.circles li:nth-child(8){
+    animation-delay: 11s;
+    animation-duration: 32s;
+}
+
+.circles li:nth-child(4){
+    animation-delay: 5s;
+    animation-duration: 17s;
+}
+
+.circles li:nth-child(2){
+    animation-delay: 2s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(7){
+    animation-delay: 18s;
+}
+
+.circles li:nth-child(6){
+    animation-delay: 10s;
+}
+
+.circles li:nth-child(5){
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(3){
+    animation-delay: 6s;
+}
+
+.circles li:nth-child(1){
+    animation-delay: 4s;
+}
+

@@ -1,0 +1,50 @@
+
+body {
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.7rem;
+}
+
+.roady-ui-header {
+    font-size: 1.5rem;
+    text-align: center;
+
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+
+}
+
+.circles li {
+    font-family: monospace;
+    font-size: 1.7rem;
+    text-align: center;
+
+  font-weight: bold;
+  text-shadow: 0 0 8px #ffffff,
+               0 0 10px #fafafa,
+               0 0 12px #fcfcfc,
+               0 0 14px #fefefe,
+               0 0 16px #eaeaea,
+               0 0 18px #ececec;
+}
+
+.roady-ui-main-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.5rem;
+}
+
