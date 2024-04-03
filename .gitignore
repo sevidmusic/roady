@@ -8,3 +8,5 @@ vendor/
 *.todos
 vimfilelist
 composer.lock
+rig
+
