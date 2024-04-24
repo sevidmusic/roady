@@ -24,8 +24,7 @@
         "darling/php-darling-dev-tools": "^1.0",
         "darling/roady-module-utilities": "^1.0",
         "darling/roady-routing-utilities": "^1.0",
-        "darling/roady-ui-utilities": "^1.0",
-        "symfony/var-dumper": "^7.0"
+        "darling/roady-ui-utilities": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -35,6 +34,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*",
-        "phpstan/phpstan": "*"
+        "phpstan/phpstan": "*",
+        "symfony/var-dumper": "^7.0"
     }
 }
